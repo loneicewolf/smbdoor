@@ -5,13 +5,13 @@
 
 #### I forked this with the goal of improving & contributing, especially to help the "issues" (open) at the original repo.
 
-        // Now, many people maybe just got this to compile & run flawlessly the first time, but I'm doing this for the people that (obviously) had a bit of compiler errors/and other issue(s).
+ Now, many people maybe just got this to compile & run flawlessly the first time, but I'm doing this for the people that (obviously) had a bit of compiler errors/and other issue(s).
 
 ----------------------------------
 
 #### Which (currently) is the following: (https://github.com/zerosum0x0/smbdoor/issues)
 
-### ISSUES
+#### ISSUES
 
 ---------------------------------
 
@@ -22,17 +22,21 @@
 ---------------------------------
 
 In my case I (too) had a bunch of compiler errors; (mentioned in Issue #2) 
-I (in my case) had the following errors:
+I had the following errors:
 
 ---------------------
-    (...) - "Device driver does not install on any devices, use primitive driver if this is intended."
-    Here, I exactly do not know what fixed this but, in my case (**NOTE, read carefully or you may accidentaly delete the inf file**) I deleted (In visual studio) the smbdoor.inf file, but I kept the "file" itself. And - somehow, it worked.
+
+(...) - "Device driver does not install on any devices, use primitive driver if this is intended."
+
+        fix: Here, I exactly do not know what fixed this but, in my case (**NOTE, read carefully or you may accidentaly delete the inf file**) I deleted (In visual studio) the smbdoor.inf file, but I kept the "file" itself. And - somehow, it worked.
 
 ----------------------
-    (...) - [Version] section should specify PnpLockdown=1.
-    fix: Just add "PnpLockdown=1" below [Version]
 
-This fix might(?) also have some connection with issue #3 But I do not know for sure.
+(...) - [Version] section should specify PnpLockdown=1.
+
+        fix: Just add "PnpLockdown=1" below [Version]
+
+        This fix might(?) also have some connection with issue #3 But I do not know for sure.
 
 ----------------------
 
