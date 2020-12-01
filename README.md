@@ -13,13 +13,12 @@ Of course, it comes with practical limitations that make it mostly an academic e
 ---------
 
 
-//Now, many people maybe just got this to compile & run flawlessly the first time, but I'm doing this for the people that (obviously) had a bit of compiler errors/and other issue(s).
-
-
-## Original repo is: https://github.com/zerosum0x0/smbdoor
-
 
 #### I forked this with the goal of improving & contributing, especially to help the "issues" (open) at the original repo.
+
+//Now, many people maybe just got this to compile & run flawlessly the first time, but I'm doing this for the people that (obviously) had a bit of compiler errors/and other issue(s).
+
+----------------------------------
 
 #### Which (currently) is the following: (https://github.com/zerosum0x0/smbdoor/issues)
 
