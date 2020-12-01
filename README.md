@@ -44,12 +44,14 @@ I (in my case) had the following errors:
     (...) - [Version] section should specify PnpLockdown=1.
     fix: Just add "PnpLockdown=1" below [Version]
 
+This fix might(?) also have some connection with issue #3 But I do not know for sure.
+
 ----------------------
 
 Please, if any of those fixes (and any of the following which I will continue adding) 
 worked for someone, please tell me that (so I know that it worked)
 
-This fix might(?) also have some connection with issue #3 But I do not know for sure.
+
 
 -----------------------
 
