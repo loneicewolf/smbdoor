@@ -2,11 +2,31 @@
 ---------
 
 *Recent* changes include:
-  [x]  a pre-compiled smbdoor.sys file, mainly for issue #2
+ ####  [x]  A pre-compiled smbdoor.sys file, mainly for issue #2
+
+To insert/use it: (Remember, this is dangerous so - do not use this on a production system, this should be obvious of course)
+
+#### copied from the run.bat file: (Run in command prompt)
+
+---------------
+
+
+- sc create smbdoor binPath= "C:\Users\nsa\source\repos\smbdoor\x64\Release\smbdoor.sys" type= kernel
+
+- sc start smbdoor
+
+- pause
+
+
+---------------
+
+More on "sc.exe" here(describes what sc is, what type= 's can be used, etc.):
+ - https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/sc-create
+
 
 #### I forked this with the goal of improving & contributing, especially to help the "issues" (open) at the original repo.
 
- Now, many people maybe just got this to compile & run flawlessly the first time, but I'm doing this for the people that (obviously) had a bit of compiler errors/and other issue(s).
+Now, many people maybe just got this to compile & run flawlessly the first time, but I'm doing this for the people that (obviously) had a bit of compiler errors/and other issue(s).
 
 ----------------------------------
 
