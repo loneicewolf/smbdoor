@@ -1,5 +1,5 @@
-
----------
+Original README.md below.
+------------------------
 
 *Recent* changes include:
  ####  [x]  A pre-compiled smbdoor.sys file, mainly for issue #2
@@ -79,7 +79,7 @@ Discord: Ken-Kaneki#3978
 
 ------------------------
 
-Original README.MD:
+**Original README.MD:**
 
 ------------------------
 
