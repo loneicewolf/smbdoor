@@ -1,7 +1,8 @@
 
 ---------
 
-
+*Recent* changes include:
+  [x]  a pre-compiled smbdoor.sys file, mainly for issue #2
 
 #### I forked this with the goal of improving & contributing, especially to help the "issues" (open) at the original repo.
 
